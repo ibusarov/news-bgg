@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>News BG</title>
-        <meta name='новини на български' content='новини на български' key='новини, български новини, топ новини' />
+        <title>Новини</title>
+        <meta name='description' content='новини на български' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='page-container'>

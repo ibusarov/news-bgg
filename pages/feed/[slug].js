@@ -1,6 +1,7 @@
 import styles from '../../styles/Feed.module.css'
 import { useRouter } from 'next/router'
 import Toolbar from '../../components/toolbar'
+import Head from 'next/head'
 // import { responseSymbol } from 'next/dist/server/web/spec-compliant/fetch-event'
 
 const Feed = ({ pageNumber, articles }) => {
@@ -8,6 +9,11 @@ const Feed = ({ pageNumber, articles }) => {
 
   return (
     <div className='page-container'>
+      <Head>
+        <title>Новини</title>
+        <meta name='description' content='новини на български' />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <Toolbar />
       <div className={styles.main}>
         {articles?.map((article, index) => (
