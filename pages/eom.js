@@ -13,7 +13,7 @@ const EOM = ({ employee }) => {
           <h3>Нашите топ пост ловци</h3>
           <h5>К§Ж Инжинери</h5>
           <Image src="/vasko.jpg" alt='Employee of the month' width={400} height={300} />
-          <h4>Експерти по камилологистила и жирафология</h4>
+          <h4>Експерти по камилологистика и жирафология</h4>
         </div>
       </div>
     </div>
