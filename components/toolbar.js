@@ -7,7 +7,7 @@ const Toolbar = () => {
   return (
     <div className={styles.main}>
       <div onClick={() => router.push('/')}>Начало</div>
-      <div onClick={() => router.push('/feed/1')}>Новини</div>
+      <div onClick={() => router.push('/feed')}>Новини</div>
       <div
         onClick={() =>
           (window.location.href = 'https://weather.com/bg-BG/weather/today')
