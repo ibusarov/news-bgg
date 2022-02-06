@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Toolbar from '../components/toolbar'
 import Head from 'next/head'
 
-const EOM = ({ employee }) => {
+const EOM = () => {
   //console.log(employee)
   return (
     <div className='page-container'>
@@ -17,9 +17,9 @@ const EOM = ({ employee }) => {
         <h1>Служители на месеца</h1>
         <div className={styles.employeeOfTheMonth}>
           <h3>Нашите топ пост ловци</h3>
-          <h5>К§Ж Инжинери</h5>
+          <h5>К&Ж Инженери</h5>
           <Image
-            src='/vasko.jpg'
+            src='/vasko1.jpg'
             alt='Employee of the month'
             width={400}
             height={300}
@@ -31,16 +31,16 @@ const EOM = ({ employee }) => {
   )
 }
 
-export const getServerSideProps = async (pageContext) => {
-  const apiResponse = await fetch(
-    'https://my-json-server.typicode.com/portexe/next-news/employeeOfTheMonth'
-  )
-  const employee = await apiResponse.json()
+// export const getServerSideProps = async (pageContext) => {
+//   const apiResponse = await fetch(
+//     'https://my-json-server.typicode.com/portexe/next-news/employeeOfTheMonth'
+//   )
+//   const employee = await apiResponse.json()
 
-  return {
-    props: {
-      employee,
-    },
-  }
-}
+//   return {
+//     props: {
+//       employee,
+//     },
+//   }
+// }
 export default EOM
