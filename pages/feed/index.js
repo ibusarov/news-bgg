@@ -2,6 +2,7 @@ import styles from '../../styles/Feed.module.css'
 import { useRouter } from 'next/router'
 import Toolbar from '../../components/toolbar'
 import Head from 'next/head'
+import Footer from '../../components/footer'
 // import { responseSymbol } from 'next/dist/server/web/spec-compliant/fetch-event'
 
 const Feed = ({ articles }) => {
@@ -57,6 +58,10 @@ const Feed = ({ articles }) => {
           Next Page
         </div>
       </div> */}
+      <br />
+      <br />
+      
+      <Footer />
     </div>
   )
 }
