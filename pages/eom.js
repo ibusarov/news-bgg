@@ -2,6 +2,7 @@ import styles from '../styles/EOM.module.css'
 import Image from 'next/image'
 import Toolbar from '../components/toolbar'
 import Head from 'next/head'
+import Footer from '../components/footer'
 
 const EOM = () => {
   //console.log(employee)
@@ -27,6 +28,7 @@ const EOM = () => {
           <h4>Експерти по камилологистика и жирафология</h4>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
