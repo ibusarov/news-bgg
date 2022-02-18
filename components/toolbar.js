@@ -10,10 +10,11 @@ const Toolbar = () => {
       <div onClick={() => router.push('/feed')}>Новини</div>
       <div
         onClick={() =>
-          (window.location.href = 'https://weather.com/bg-BG/weather/today')
+          (window.location.href =
+            'https://www.wildcamels.com/great-gobi-kids-corner/')
         }
       >
-        Времето
+        Животни
       </div>
       <div onClick={() => router.push('/eom')}>Награди</div>
     </div>

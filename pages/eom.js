@@ -15,12 +15,12 @@ const EOM = () => {
       </Head>
       <Toolbar />
       <div className={styles.main}>
-        <h1>Служители на месеца</h1>
+        <h1>Снимка на месеца</h1>
         <div className={styles.employeeOfTheMonth}>
-          <h3>Нашите топ пост ловци</h3>
+          <h3>От нашите топ пост ловци</h3>
           <h5>К&Ж Инженери</h5>
           <Image
-            src='/vasko1.jpg'
+            src='/camelsmile.jpg'
             alt='Employee of the month'
             width={400}
             height={300}
