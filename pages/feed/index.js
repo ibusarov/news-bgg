@@ -11,9 +11,23 @@ const Feed = ({ articles }) => {
   return (
     <div className='page-container'>
       <Head>
-        <title>Новини</title>
-        <meta name='description' content='новини на български' />
-        <link rel='icon' href='/favicon.ico' />
+        <title>
+          Новини от България и света, актуална информация 24 часа в денонощието
+        </title>
+
+        <meta
+          name='description'
+          content='Новинарски сайт за новини от България и света на теми - спорт, технологии, социално-културни, здраве, криминалистика, автомобили, политика, животни, камили, жирафи, смях, забавни.'
+        />
+        <meta
+          name='keywords'
+          content='новини, спорт, технологии, социално-културни, здраве, криминалистика, автомобили, политика, животни, камили, жирафи, смях, забавни'
+        />
+
+        <meta
+          name='viewport'
+          content='maximum-scale=2, user-scalable=1, minimal-ui'
+        />
       </Head>
       <Toolbar />
       <div className={styles.main}>
@@ -60,7 +74,7 @@ const Feed = ({ articles }) => {
       </div> */}
       <br />
       <br />
-      
+
       <Footer />
     </div>
   )
