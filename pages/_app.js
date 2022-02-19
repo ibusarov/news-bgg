@@ -6,6 +6,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
+        <meta charSet='UTF-8' />
+        <meta HTTP-EQUIV='Content-Language' content='BG' />
         <title>
           Новини от България и света, актуална информация 24 часа в денонощието
         </title>
