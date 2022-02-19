@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>
           Новини от България и света, актуална информация 24 часа в денонощието
         </title>
-        
+
         <meta
           name='description'
           content='Новинарски сайт за новини от България и света на теми - спорт, технологии, социално-културни, здраве, криминалистика, автомобили, политика, животни, камили, жирафи, смях, забавни.'
@@ -19,10 +19,7 @@ function MyApp({ Component, pageProps }) {
           content='новини, спорт, технологии, социално-културни, здраве, криминалистика, автомобили, политика, животни, камили, жирафи, смях, забавни'
         />
 
-        <meta
-          name='viewport'
-          content='maximum-scale=2, user-scalable=1, minimal-ui'
-        />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Component {...pageProps} />
     </div>

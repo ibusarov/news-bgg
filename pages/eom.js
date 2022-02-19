@@ -22,10 +22,7 @@ const EOM = () => {
           content='новини, спорт, технологии, социално-културни, здраве, криминалистика, автомобили, политика, животни, камили, жирафи, смях, забавни'
         />
 
-        <meta
-          name='viewport'
-          content='maximum-scale=2, user-scalable=1, minimal-ui'
-        />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Toolbar />
       <div className={styles.main}>
