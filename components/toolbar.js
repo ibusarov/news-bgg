@@ -11,7 +11,7 @@ const Toolbar = () => {
       <div
         onClick={() =>
           (window.location.href =
-            'https://www.wildcamels.com/great-gobi-kids-corner/')
+            'https://www.nationalgeographic.bg/a/boi-s-kamili-nenadminata-atrakciya-v-turciya')
         }
       >
         Животни
