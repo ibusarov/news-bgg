@@ -11,8 +11,8 @@ const Footer = () => {
             style={{
               color: 'teal',
               textAlign: 'center',
-              marginBottom: '50px',
-              marginTop:'-50px'
+              marginBottom: '30px',
+              marginTop:'-30px'
             }}
           >
             Copyright &copy: K&G
